@@ -28,12 +28,12 @@ def chartPrices() -> None:
     To create Chart for Price Properties.
     """
     #Reading the required Data
-    calender = pd.read_csv(r'calendar_dec18.csv',dayfirst=True)    
+    calender = pd.read_csv(r'calendar_dec18.csv', dayfirst=True)    
 
     #Processing Some Data
     # calender.dropna(inplace=True)
     #To Add new Date Format column
-    calender['date'] = pd.to_datetime(calender['date'])    
+    calender['date'] = pd.to_datetime(calender['date'], dayfirst=True)    
 
     #Flitering the Data
     inTime = calender[(calender['date'] >= start_date)&(calender['date'] <= end_date)] 
@@ -54,7 +54,7 @@ def numCommented(words:list) -> dict:
 
     #Changing DataType of the date.
     reviews['date'] = pd.to_datetime(reviews['date'])
-    # reviews.dropna(inplace=True)
+    reviews.dropna(inplace=True)
 
     #Flitering accourding to time
     inTime = reviews[(reviews['date'] >= start_date) & (reviews['date'] <= end_date)]

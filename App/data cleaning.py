@@ -12,7 +12,7 @@ listing = listing[['Date','scrape_id','name','neighbourhood']].rename(columns={
 listing.to_csv(r'listings_dec18.csv')
 
 
-calender = pd.read_csv(r'calendar_dec18.csv')    
+calender = pd.read_csv(r'calendar_dec18.csv', dayfirst=True)    
 
 calender.dropna(inplace=True)
 
