@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PRANJ PATEL ASSIGNMENT</title>
+    <title>Sydney Airbnb Data</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -75,7 +75,7 @@
     </style>
 </head>
 <body>
-    <h1>PRANJ PATEL ASSIGNMENT</h1>
+    <h1>Sydney Airbnb Data</h1>
     <div class="container">
         <form action="/submit" method="post">
             <label for="start_day">Start Date:</label>
@@ -87,23 +87,64 @@
             <input type="number" id="end_day" name="end_day" min="1" max="31" placeholder="Day" required>
             <input type="number" id="end_month" name="end_month" min="1" max="12" placeholder="Month" required>
             <input type="number" id="end_year" name="end_year" min="1900" max="2099" placeholder="Year" required>
+            <!-- Add the Suburb dropdown menu here -->
+            <label for="suburb">Suburb:</label>
+            <select id="suburb" name="suburb" required>
+                <option value="Sydney">Sydney</option>
+                <option value="Mosman">Mosman</option>
+                <option value="Marrickville">Marrickville</option>
+                <option value="Randwick">Randwick</option>
+                <option value="Woollahra">Woollahra</option>
+                <option value="North Bondi">North Bondi</option>
+                <option value="Willoughby">Willoughby</option>
+                <option value="Manly">Manly</option>
+                <option value="Lane Cove">Lane Cove</option>
+                <option value="North Sydney">North Sydney</option>
+                <option value="Rockdale">Rockdale</option>
+                <option value="Strathfield">Strathfield</option>
+                <option value="Burwood">Burwood</option>
+                <option value="Canterbury">Canterbury</option>
+                <option value="Hunters Hill">Hunters Hill</option>
+                <option value="Hurstville">Hurstville</option>
+                <!-- Add more options as needed -->
+            </select>
+
+            <style>
+                /* Style for the select element */
+                select#suburb {
+                    width: 100%;
+                    padding: 10px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    background-color: #fff;
+                    font-size: 16px;
+                    color: #333;
+                }
+                
+                /* Style for the label element */
+                label[for="suburb"] {
+                    color: #333;
+                    font-weight: bold;
+                    margin-bottom: 10px;
+                }
+            </style>
 
             <input type="submit" value="SET DATE">
         </form>
 
-        <h2>1. Listing in Selected Time Period</h2>
+        <h2>1. Suburb Listing</h2>
         <button onclick="location.href='/function1'">Execute Listing In Time Period</button>
 
-        <h2>2. Charts On Prices (Histogram)</h2>
+        <h2>2. Price Charts</h2>
         <button onclick="location.href='/function2'">Execute Charts On Prices</button>
 
-        <h2>3. Reviews on Topic: SEARCH</h2>
+        <h2>3. Keyword Search</h2>
         <button onclick="location.href='/function3'">Execute Cleanliness Reviews</button>
 
-        <h2>4. Number of People Commented on Topic: Cleanliness</h2>
+        <h2>4. Cleanliness number</h2>
         <button onclick="location.href='/function4'">Execute Num of People Commented</button>
 
-        <h2>5. Home Type Analysis: In some Time Period</h2>
+        <h2>5. Home Type Analysis</h2>
         <button onclick="location.href='/function5'">Execute Homes Type Analysis</button>
     </div>
 </body>
