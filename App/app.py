@@ -162,12 +162,13 @@ def index():
 
         # Filter reviews containing the keyword
         filtered_df = df[df['comments'].str.contains(keyword, case=False, na=False)]
-
+        commnum = len(filtered_df) # Use len() to get the number of rows
+        
         # Apply the highlighting function to the filtered reviews
         filtered_df['highlighted_comments'] = filtered_df['comments'].apply(highlight_keyword, keyword=keyword)
 
-        return render_template('function3.html', keyword=keyword, filtered_df=filtered_df)
-
+        return render_template('function3.html', keyword=keyword, filtered_df=filtered_df, commnum=str(commnum))
+    
     return render_template('function3.html')
 
 # Comments with words mentioned in it

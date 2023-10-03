@@ -82,6 +82,7 @@
         </form>
 
         {% if keyword %}
+        <h2>{{ commnum }} People Commented</h2>
         <h2>Results for "{{ keyword }}"</h2>
         <ul>
             {% for index, row in filtered_df.iterrows() %}
