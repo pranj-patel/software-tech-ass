@@ -69,6 +69,19 @@
             border-radius: 5px;
             background-color: #f9f9f9;
         }
+
+        .back-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 </head>
 <body>
@@ -89,7 +102,15 @@
             <li>{{ row['highlighted_comments'] | safe}}</li>
             {% endfor %}
         </ul>
+        <button class="back-button" onclick="goBack()">Back</button>
         {% endif %}
     </div>
+    
+    <script>
+        // JavaScript function to navigate back to the home screen
+        function goBack() {
+            window.location.href = "/"; // Replace with the URL of your home screen
+        }
+    </script>
 </body>
 </html>

@@ -5,5 +5,14 @@
 </head>
 <body>
     <img src="{{ url_for('static', filename='images/plot.png') }}" alt="Image">
+    
+    <button class="back-button" onclick="goBack()">Back</button>
+    
+    <script>
+        // JavaScript function to navigate back to the home screen
+        function goBack() {
+            window.location.href = "/"; // Replace with the URL of your home screen
+        }
+    </script>
 </body>
 </html>

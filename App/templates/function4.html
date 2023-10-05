@@ -32,6 +32,19 @@
             background-color: #007BFF;
             color: #fff;
         }
+
+        .back-button {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
     </style>
 </head>
 <body>
@@ -49,5 +62,14 @@
         </tr>
         {% endfor %}
     </table>
+    
+    <button class="back-button" onclick="goBack()">Back</button>
+    
+    <script>
+        // JavaScript function to navigate back to the home screen
+        function goBack() {
+            window.location.href = "/"; // Replace with the URL of your home screen
+        }
+    </script>
 </body>
 </html>
