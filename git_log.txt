@@ -1,0 +1,183 @@
+commit c7c3d1e23eecd17289fd57105f7fcb8dda81e3b3
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Oct 8 23:30:30 2023 +1000
+
+    Update cover pages for all and ready for submission
+
+commit 55155a2b01bd5bd3786f34286ebef8bc4af6cba8
+Author: eczhh <hangbicheah12@gmail.com>
+Date:   Sun Oct 8 22:21:10 2023 +1000
+
+    updated report
+
+commit a5d04c95094044da4febe64a988387640f5198de
+Author: eczhh <hangbicheah12@gmail.com>
+Date:   Sun Oct 8 16:57:47 2023 +1000
+
+    updated testing
+
+commit cd9a5f09d0d60761c251db6b8368f35c06e6dde3
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Fri Oct 6 22:30:47 2023 +1000
+
+    1st Update of executive summary
+
+commit 7e7b4fdbe32b7c981ce734be9f753ef052de3d5d
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Fri Oct 6 17:18:05 2023 +1000
+
+    New Finalised Update to Gantt Chart
+
+commit d54b80e87d6b8b4065614a4b22a6a4fc46ac5fed
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Fri Oct 6 17:17:03 2023 +1000
+
+    New FInalised Update to Project Plan
+
+commit d283010689cd781c03ed9ed90839d0ff8b207439
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Fri Oct 6 01:46:32 2023 +1000
+
+    Added Updated Gantt Chart
+
+commit c8bb21612823d65a53c931c14599517ea0a8b775
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Fri Oct 6 01:41:03 2023 +1000
+
+    Finalised Gantt Chart
+
+commit cbc3b7fa41c0b697f320ea87f99b66eae79af5b5
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Thu Oct 5 11:20:12 2023 +1000
+
+    Update templates
+
+commit e0168d615a2bed64abe0d783ae401a4ed1f29117
+Merge: 006c83c b284f3e
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Wed Oct 4 21:37:34 2023 +1000
+
+    Merge branch 'main' of https://github.com/pranj-patel/software-tech-ass
+
+commit 006c83c7be0ded2f06558539c14e0c577e532e71
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Wed Oct 4 21:36:26 2023 +1000
+
+    User Manual document done
+
+commit b284f3e3ea7345bfdce8924e562355d178021340
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Wed Oct 4 21:36:24 2023 +1000
+
+    1st Update to Gantt Chart
+
+commit 14fc51d76f2913ff139b2d8a0643665501e5c7e7
+Merge: f47a0df dc9d872
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Wed Oct 4 20:20:37 2023 +1000
+
+    Merge branch 'main' of https://github.com/pranj-patel/software-tech-ass
+
+commit f47a0dff534c334363280841def66bafedf67471
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Wed Oct 4 20:15:39 2023 +1000
+
+    Updated WBS and Activity Definition
+
+commit dc9d87277e914e6ad8dcf8a94e9c77fd45cfdb28
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Wed Oct 4 01:04:08 2023 +1000
+
+    function 3 updated
+
+commit 6b1a999e89fe498ef4d76b2b8cea53e73aa6f14d
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Tue Oct 3 21:02:48 2023 +1000
+
+    all function works fine
+
+commit 5eca6c6c569464e4788817ccc501a6524a580576
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Mon Oct 2 14:56:19 2023 +1000
+
+    Update some of the error
+
+commit 4ad5303b45636750b1f9b6a1e6c9edea349f95e2
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Thu Sep 28 13:26:48 2023 +1000
+
+    Application
+
+commit 6608bbc3473720cba59c7edfa6e7da2cd70d06c9
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Sep 3 23:49:54 2023 +1000
+
+    Everything is ready for submission
+
+commit 2f5cd2d22aa98cccad1e9fd05db80472d136730e
+Merge: a121836 cfd2d26
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Sep 3 17:25:15 2023 +1000
+
+    Merge branch 'main' of https://github.com/pranj-patel/software-tech-ass
+
+commit a121836bd6d114380cf9e1cf31d3d4b4b7276c11
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Sep 3 17:25:00 2023 +1000
+
+    final updatation of gantt chart in excel sheet
+
+commit 382e560f2b266194731fe3f2f21210434fca1501
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Sep 3 17:19:52 2023 +1000
+
+    final updatation of gantt chart
+
+commit cfd2d2606aaaad63bd46e7d7896d7241938bc670
+Merge: c78b5de 6e0ee63
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Thu Aug 31 13:10:32 2023 +1000
+
+    Merge branch 'main' of https://github.com/pranj-patel/software-tech-ass
+
+commit c78b5defa1d1bccd6d76d878e481974b72fb30ff
+Author: javaivilla <jason.avaivilla@griffithuni.edu.au>
+Date:   Thu Aug 31 12:07:44 2023 +1000
+
+    Task 1 and 2 Completed
+
+commit 6e0ee63645064bdb0c3bfd0e54481bf60f149f05
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Mon Aug 28 20:38:25 2023 +1000
+
+    Gantt chart modified
+
+commit 06140dc8a29bc17810ed02a4cd393f36e85fe5e3
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Sun Aug 27 10:31:20 2023 +1000
+
+    Wbs and Activity Definition & Estimation updated
+
+commit 4aba8ccaa924d5828ebf105ddd45fb1d026af9fb
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Thu Aug 24 23:48:54 2023 +1000
+
+    Introduction updated and finalise
+
+commit 371645ac89aa445505d9a1887b3fce44108b483d
+Author: pranj-patel <pranjpatel1024@gmail.com>
+Date:   Thu Aug 24 13:59:22 2023 +1000
+
+    Gantt updated
+
+commit e6fce828c5126e83c65f2b672dbb73b68b6bf5f2
+Author: pranj-patel <127923777+pranj-patel@users.noreply.github.com>
+Date:   Thu Aug 24 13:39:12 2023 +1000
+
+    Add files via upload
+
+commit 627419009823b64fe39767a6aa270fc13080888c
+Author: pranj-patel <127923777+pranj-patel@users.noreply.github.com>
+Date:   Thu Aug 24 13:37:34 2023 +1000
+
+    Initial commit
